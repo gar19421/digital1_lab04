@@ -1,6 +1,6 @@
 // GATE LEVEL MODEL EJECICIO 1
 
-// Y = (A' * C') + (A * B') + (A * C);
+// Y = (A' * C') + (A * B') + (A * C)
 
 module gateLevel1(input wire A, B, C, output wire Y);
 
@@ -16,7 +16,7 @@ module gateLevel1(input wire A, B, C, output wire Y);
 
 endmodule
 
-// Y = (B');
+// Y = (B')
 
 module gateLevel2(input wire A, B, C, output wire Y);
 
@@ -24,7 +24,7 @@ module gateLevel2(input wire A, B, C, output wire Y);
 
 endmodule
 
-// Ecuación tabla 3, ejercicio 1;
+// Ecuación tabla 3, ejercicio 1
 
 module gateLevel3(input wire A, B, C, D, output wire Y);
 
@@ -46,7 +46,7 @@ module gateLevel3(input wire A, B, C, D, output wire Y);
 
 endmodule
 
-// Y = (A * D') + (B * D) + (A * C);
+// Y = (A * D') + (B * D) + (A * C)
 
 module gateLevel4(input wire A, B, C, D, output wire Y);
 
@@ -63,7 +63,7 @@ endmodule
 
 // BEHAVIORAL MODELING EJERCICIO 2
 
-// Y = (B' * C' * D') + (A * C') + (A * D') + (A * B');
+// Y = (B' * C' * D') + (A * C') + (A * D') + (A * B')
 
 module operadores1(input wire A, B, C, D, output wire Y);
 
@@ -71,7 +71,7 @@ module operadores1(input wire A, B, C, D, output wire Y);
 
 endmodule
 
-// Y = (B' + C);
+// Y = (B' + C)
 
 module operadores2(input wire A, B, C, output wire Y);
 
@@ -79,7 +79,7 @@ module operadores2(input wire A, B, C, output wire Y);
 
 endmodule
 
-// Y = B + (C' * D) + (A * D);
+// Y = B + (C' * D) + (A * D)
 
 module operadores3(input wire A, B, C, D, output wire Y);
 
@@ -87,7 +87,7 @@ module operadores3(input wire A, B, C, D, output wire Y);
 
 endmodule
 
-// Y = B + (A' * C');
+// Y = B + (A' * C')
 
 module operadores4(input wire A, B, C, output wire Y);
 
